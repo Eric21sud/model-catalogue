@@ -123,6 +123,17 @@
       "sha256": "7b064f5842bf9532c91456deda288a1b672397a54fa729aa665952863033557c"
     },
     {
+      "id": "hermes-3-8b-q4",
+      "name": "Hermes 3 8B (Q4_K_M)",
+      "description": "LLaMA 3.1 8B fine-tuné par NousResearch, excellent en raisonnement et suivi d'instructions, pour 8 Go+",
+      "size_mb": 4920,
+      "required_ram_mb": 7000,
+      "recommended_for_ram_gb_min": 8.0,
+      "capabilities": ["TEXT"],
+      "download_url": "https://huggingface.co/bartowski/Hermes-3-Llama-3.1-8B-GGUF/resolve/main/Hermes-3-Llama-3.1-8B-Q4_K_M.gguf",
+      "sha256": "44b5c529dffaf34657a4c44a7919e5958b4270fbd365eed3b87d3444b45a378a"
+    },
+    {
       "id": "vera-8b-fr-q4",
       "name": "Vera 8B (Q4_K_M) – spécialiste français",
       "description": "Conçu pour le français, idéal pour 8 Go+ de RAM",
