@@ -5,6 +5,7 @@
     {
       "id": "gemma-3-1b-litert",
       "name": "Gemma 3 1B (LiteRT)",
+      "engine": "litert",
       "format": "litertlm",
       "description": "Ultra léger — moteur LiteRT GPU/NPU",
       "size_mb": 800,
@@ -18,6 +19,7 @@
     {
       "id": "gemma-3n-e2b-int4",
       "name": "Gemma 3n E2B INT4",
+      "engine": "litert",
       "format": "litertlm",
       "description": "Modèle LiteRT officiel Google — multimodal TEXT/VISION/AUDIO",
       "size_mb": 3660,
@@ -31,6 +33,7 @@
     {
       "id": "gemma-4-e2b-litert",
       "name": "Gemma 4 E2B (LiteRT)",
+      "engine": "litert",
       "format": "litertlm",
       "description": "Gemma 4 2B actifs MoE — moteur LiteRT, GPU optimisé",
       "size_mb": 2590,
@@ -44,6 +47,7 @@
     {
       "id": "gemma-4-e4b-litert",
       "name": "Gemma 4 E4B (LiteRT)",
+      "engine": "litert",
       "format": "litertlm",
       "description": "Gemma 4 4B actifs MoE — moteur LiteRT, GPU optimisé",
       "size_mb": 3660,
