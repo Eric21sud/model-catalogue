@@ -3,10 +3,23 @@
   "runtime": "litert",
   "models": [
     {
+      "id": "gemma-3-1b-litert",
+      "name": "Gemma 3 1B (LiteRT)",
+      "format": "litertlm",
+      "description": "Ultra léger — moteur LiteRT GPU/NPU",
+      "size_mb": 800,
+      "required_ram_mb": 2000,
+      "recommended_for_ram_gb_min": 2.0,
+      "capabilities": ["TEXT"],
+      "download_url": "https://huggingface.co/litert-community/Gemma3-1B-IT/resolve/main/Gemma3-1B-IT_q8_ekv1280.litertlm",
+      "filename": "Gemma3-1B-IT_q8_ekv1280.litertlm",
+      "sha256": ""
+    },
+    {
       "id": "gemma-3n-e2b-int4",
       "name": "Gemma 3n E2B INT4",
       "format": "litertlm",
-      "description": "Modèle LiteRT officiel Google",
+      "description": "Modèle LiteRT officiel Google — multimodal TEXT/VISION/AUDIO",
       "size_mb": 3660,
       "required_ram_mb": 5000,
       "recommended_for_ram_gb_min": 6.0,
@@ -14,6 +27,32 @@
       "download_url": "https://huggingface.co/google/gemma-3n-E2B-it-litert-lm/resolve/main/gemma-3n-E2B-it-int4.litertlm",
       "filename": "gemma-3n-E2B-it-int4.litertlm",
       "sha256": "2ED7BC3A0026C93D5B8A4544B352D9D00CD66FF0BAC3EF6A20AC3D2CBA4010D6"
+    },
+    {
+      "id": "gemma-4-e2b-litert",
+      "name": "Gemma 4 E2B (LiteRT)",
+      "format": "litertlm",
+      "description": "Gemma 4 2B actifs MoE — moteur LiteRT, GPU optimisé",
+      "size_mb": 2590,
+      "required_ram_mb": 4000,
+      "recommended_for_ram_gb_min": 4.0,
+      "capabilities": ["TEXT"],
+      "download_url": "https://huggingface.co/litert-community/gemma-4-E2B-it-litert-lm/resolve/main/gemma-4-E2B-it.litertlm",
+      "filename": "gemma-4-E2B-it.litertlm",
+      "sha256": ""
+    },
+    {
+      "id": "gemma-4-e4b-litert",
+      "name": "Gemma 4 E4B (LiteRT)",
+      "format": "litertlm",
+      "description": "Gemma 4 4B actifs MoE — moteur LiteRT, GPU optimisé",
+      "size_mb": 3660,
+      "required_ram_mb": 6000,
+      "recommended_for_ram_gb_min": 6.0,
+      "capabilities": ["TEXT"],
+      "download_url": "https://huggingface.co/litert-community/gemma-4-E4B-it-litert-lm/resolve/main/gemma-4-E4B-it.litertlm",
+      "filename": "gemma-4-E4B-it.litertlm",
+      "sha256": ""
     }
   ]
 }
