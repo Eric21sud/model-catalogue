@@ -13,7 +13,7 @@
       "capabilities": ["TEXT", "VISION", "AUDIO"],
       "download_url": "https://huggingface.co/google/gemma-3n-E2B-it-litert-lm/resolve/main/gemma-3n-E2B-it-int4.litertlm",
       "filename": "gemma-3n-E2B-it-int4.litertlm",
-      "sha256": ""
+      "sha256": "2ED7BC3A0026C93D5B8A4544B352D9D00CD66FF0BAC3EF6A20AC3D2CBA4010D6"
     }
   ]
 }
