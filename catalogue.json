@@ -76,7 +76,7 @@
       "recommended_for_ram_gb_min": 5.0,
       "capabilities": ["TEXT"],
       "download_url": "https://huggingface.co/bartowski/google_gemma-4-E2B-it-GGUF/resolve/main/google_gemma-4-E2B-it-Q4_K_M.gguf",
-      "sha256": "ac0069ebccd39925d836f24a88c0f0c858d20578c29b21ab7cedce66ee576845"
+      "sha256": "B5310340B3A23D31655D7119D100D5DF1B2D8EE17B3CA8B0A23AD7E9EB5FA705"
     },
     {
       "id": "qwen2.5-3b-q4",
