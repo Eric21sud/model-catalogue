@@ -10,7 +10,7 @@
       "recommended_for_ram_gb_min": 2.0,
       "capabilities": ["TEXT"],
       "download_url": "https://huggingface.co/google/gemma-3-1b-it-qat-q4_0-gguf/resolve/main/gemma-3-1b-it-q4_0.gguf",
-      "sha256": "ef60e4e91a738c99ae9976b050657dfe68a4007a0ccca121b55ec0c413dccd58"
+      "sha256": "580a45a780e79ca92d16bdbe8f95c75c9d705c8a874ea7cdb52681179dc04f26"
     },
     {
       "id": "qwen2.5-1.5b-q4",
