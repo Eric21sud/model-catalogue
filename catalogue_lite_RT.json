@@ -1,0 +1,19 @@
+{
+  "version": 1,
+  "runtime": "litert",
+  "models": [
+    {
+      "id": "gemma-3n-e2b-int4",
+      "name": "Gemma 3n E2B INT4",
+      "format": "litertlm",
+      "description": "Modèle LiteRT officiel Google",
+      "size_mb": 3660,
+      "required_ram_mb": 5000,
+      "recommended_for_ram_gb_min": 6.0,
+      "capabilities": ["TEXT", "VISION", "AUDIO"],
+      "download_url": "https://huggingface.co/google/gemma-3n-E2B-it-litert-lm/resolve/main/gemma-3n-E2B-it-int4.litertlm",
+      "filename": "gemma-3n-E2B-it-int4.litertlm",
+      "sha256": ""
+    }
+  ]
+}
